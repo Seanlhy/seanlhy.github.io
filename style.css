@@ -124,8 +124,6 @@
     font-size: 3vmin;
   }
 
- 
-
   .descriptions {
     font-size: 3vmin;
     text-align: center;
@@ -176,10 +174,6 @@
     padding: 0.2vmin 1vmin 0.2vmin 1vmin;
     border-style: solid;
     border-radius: 4vmin;
-  }
-
-  .links:hover {
-    color: blue;
   }
 
   .occupation {
