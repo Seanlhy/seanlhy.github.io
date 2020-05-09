@@ -1,90 +1,96 @@
-@media (max-height: 800px){
-	
-}
-
 body {
   font-family: "courier new", Courier, monospace;
   text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-#personal-statement-desc {
-  padding-top: 20px;
-  margin: 50px 30px 0px 30px;
-  line-height: 60px;
-}
-
-#header {
-  text-align: center;
-  margin-top: 50px;
-  height: 100vh;
+  margin: 8vmin;
+  padding: 1vmin;
 }
 
 #profile-picture {
   display: block;
-  width: 250px;
+  width: 35vmin;
+  height: auto;
   max-width: 100%;
-  min-width: 100px;
+  min-width: 10vmin;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 7vmin;
 }
 
-hr {
-  margin: 0px;
+#university {
+  font-size: 3vmin;
+}
+
+#major-minor {
+  font-size: 2.2vmin;
+}
+
+#name {
+  font-size: 3.5vmin;
+}
+
+.descriptions {
+  font-size: 2vmin;
+  margin-bottom: 5vmin;
+}
+
+#personal-statement-desc {
+  margin-top: 6vmin;
+  line-height: 5vmin;
+}
+
+#header {
+  height: 100vh;
+}
+
+#projects-link {
+  text-decoration: none;
+  color: black;
+}
+
+#projects-link:hover {
+  color: blue;
 }
 
 .separator {
   border-style: solid;
-  border-radius: 15px;
-  margin: 0px 40px 40px 40px;
+  border-radius: 4vmin;
+  margin: 4vmin;
+}
+
+
+
+.separator-label {
+  font-size: 2.5vmin;
+}
+
+.title {
+  
+}
+
+.sub-title {
+  font-size: 2vmin;
 }
 
 #nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 300px;
-  margin-bottom: 20px;
+  margin: 20vmin 8vmin 0vmin 8vmin;
 }
 
 .links {
+  color: black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 2.5vmin;
   font-weight: bold;
-  color: red;
-  padding: 5px;
+  padding: 0.2vmin 0.5vmin 0.2vmin 0.5vmin;
+  border-style: solid;
+  border-radius: 4vmin;
 }
 
-.descriptions {
-   margin-bottom: 50px;
-}
-
-h4 {
-  margin: 0px;
+.links:hover {
+  color: blue;
 }
 
 .occupation {
   color: red;
-}
-
-p {
-  line-height: 25px;
-}
-
-#projects {
-  display: flex;
-  flex-direction: column;
-}
-
-#experience {
-  display: flex;
-  flex-direction: column;
-
-}
-
-#work {
-  display: flex;
-  flex-direction: column;
-
 }
