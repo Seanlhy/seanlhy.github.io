@@ -95,9 +95,9 @@
 }
 
 /* For mobile devices */
+
 @media screen and (max-width: 479px) {
-    
-  body {
+    body {
     font-family: "courier new", Courier, monospace;
     text-align: center;
     margin: 8vmin 15vmin 5vmin 15vmin;
@@ -123,6 +123,8 @@
   #major-minor {
     font-size: 3vmin;
   }
+
+ 
 
   .descriptions {
     font-size: 3vmin;
