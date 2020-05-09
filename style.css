@@ -1,95 +1,188 @@
-body {
-  font-family: "courier new", Courier, monospace;
-  text-align: center;
-  margin: 8vmin 25vmin 8vmin 25vmin;
+@media screen and (min-width: 479px){
+  body {
+    font-family: "courier new", Courier, monospace;
+    text-align: center;
+    margin: 8vmin 25vmin 8vmin 25vmin;
+  }
+
+  #profile-picture {
+    display: block;
+    width: 35vmin;
+    height: auto;
+    max-width: 100%;
+    min-width: 10vmin;
+    margin: auto;
+    border-radius: 7vmin;
+  }
+
+  #university {
+    font-size: 3vmin;
+  }
+
+  #major-minor {
+    font-size: 2.2vmin;
+  }
+
+  #name {
+    font-size: 3.5vmin;
+  }
+
+  .descriptions {
+    font-size: 2vmin;
+    margin-bottom: 5vmin;
+  }
+
+  #personal-statement-desc {
+    margin-top: 6vmin;
+    line-height: 5vmin;
+  }
+
+  #header {
+    height: 100vh;
+  }
+
+  #projects-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  #projects-link:hover {
+    color: blue;
+  }
+
+  .separator {
+    border-style: solid;
+    border-radius: 4vmin;
+    margin: 4vmin;
+  }
+
+  .separator-label {
+    font-size: 2.5vmin;
+  }
+
+  .title {
+
+  }
+
+  .sub-title {
+    font-size: 2vmin;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20vmin 8vmin 0vmin 8vmin;
+  }
+
+  .links {
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    padding: 0.2vmin 0.5vmin 0.2vmin 0.5vmin;
+    border-style: solid;
+    border-radius: 4vmin;
+  }
+
+  .links:hover {
+    color: blue;
+  }
+
+  .occupation {
+    color: red;
+  }
 }
+/* For mobile devices */
 
-#profile-picture {
-  display: block;
-  width: 35vmin;
-  height: auto;
-  max-width: 100%;
-  min-width: 10vmin;
-  margin: auto;
-  border-radius: 7vmin;
-}
+@media screen and (max-width: 479px) {
+    body {
+    font-family: "courier new", Courier, monospace;
+    text-align: center;
+    margin: 8vmin 15vmin 5vmin 15vmin;
+  }
 
-#university {
-  font-size: 3vmin;
-}
-
-#major-minor {
-  font-size: 2.2vmin;
-}
-
-#name {
-  font-size: 3.5vmin;
-}
-
-.descriptions {
-  font-size: 2vmin;
-  margin-bottom: 5vmin;
-}
-
-#personal-statement-desc {
-  margin-top: 6vmin;
-  line-height: 5vmin;
-}
-
-#header {
-  height: 100vh;
-}
-
-#projects-link {
-  text-decoration: none;
-  color: black;
-}
-
-#projects-link:hover {
-  color: blue;
-}
-
-.separator {
-  border-style: solid;
-  border-radius: 4vmin;
-  margin: 4vmin;
-}
-
-
-
-.separator-label {
-  font-size: 2.5vmin;
-}
-
-.title {
+  #profile-picture {
+    display: block;
+    width: 50vmin;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 7vmin;
+  }
   
+  #name {
+    font-size: 5vmin;
+  }
+
+  #university {
+    font-size: 4vmin;
+  }
+
+  #major-minor {
+    font-size: 3vmin;
+  }
+
+ 
+
+  .descriptions {
+    font-size: 3vmin;
+    text-align: center;
+    margin-bottom: 5vmin;
+  }
+
+  #personal-statement-desc {
+    margin-top: 6vmin;
+    margin-bottom: 6vmin;
+    line-height: 7vmin;
+  }
+
+  #projects-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .separator {
+    border-style: solid;
+    border-radius: 6vmin;
+    margin: 4vmin;
+  }
+
+  .separator-label {
+    font-size: 3.5vmin;
+  }
+
+  .title {
+    font-size: 3.2vmin;
+  }
+
+  .sub-title {
+    font-size: 3.2vmin;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20vmin 8vmin 0vmin 8vmin;
+  }
+
+  .links {
+    color: black;
+    text-decoration: none;
+    font-size: 3.5vmin;
+    font-weight: bold;
+    padding: 0.2vmin 1vmin 0.2vmin 1vmin;
+    border-style: solid;
+    border-radius: 4vmin;
+  }
+
+  .links:hover {
+    color: blue;
+  }
+
+  .occupation {
+    color: red;
+  }
 }
 
-.sub-title {
-  font-size: 2vmin;
-}
-
-#nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 20vmin 8vmin 0vmin 8vmin;
-}
-
-.links {
-  color: black;
-  text-decoration: none;
-  font-size: 2.5vmin;
-  font-weight: bold;
-  padding: 0.2vmin 0.5vmin 0.2vmin 0.5vmin;
-  border-style: solid;
-  border-radius: 4vmin;
-}
-
-.links:hover {
-  color: blue;
-}
-
-.occupation {
-  color: red;
-}
