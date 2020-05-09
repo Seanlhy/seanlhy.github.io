@@ -1,8 +1,7 @@
 body {
   font-family: "courier new", Courier, monospace;
   text-align: center;
-  margin: 8vmin;
-  padding: 1vmin;
+  margin: 8vmin 25vmin 8vmin 25vmin;
 }
 
 #profile-picture {
