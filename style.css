@@ -36,6 +36,11 @@
     margin-top: 6vmin;
     line-height: 5vmin;
   }
+  
+  #pointsymbolmap {
+    width: 70%;
+    height: auto;
+  }
 
   #header {
     height: 100vh;
